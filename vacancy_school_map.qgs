@@ -83,10 +83,10 @@
     <mapcanvas>
         <units>feet</units>
         <extent>
-            <xmin>1420800.73509397404268384</xmin>
-            <ymin>591357.07631437003146857</ymin>
-            <xmax>1431259.79100773925893009</xmax>
-            <ymax>602726.81519688002299517</ymax>
+            <xmin>1420658.28597580944187939</xmin>
+            <ymin>590373.31389570096507668</ymin>
+            <xmax>1433642.86353654740378261</xmax>
+            <ymax>602017.09268658026121557</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -108,6 +108,7 @@
             <layer_coordinate_transform destAuthId="USER:100000" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="nhood_201020150526182256313"/>
             <layer_coordinate_transform destAuthId="USER:100000" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="school_bldg_footprint20150527072805119"/>
             <layer_coordinate_transform destAuthId="USER:100000" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="quartermile_intersect_UTM4020150527165649026"/>
+            <layer_coordinate_transform destAuthId="USER:100000" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="quartermile_vacant_bldgs_counts20150526184152009"/>
         </layer_coordinate_transform_info>
     </mapcanvas>
     <visibility-presets/>
@@ -3742,7 +3743,7 @@ SY14-</displayfield>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>quartermile_intersect_UTM4020150527165649026</id>
-            <datasource>./shapefiles/quartermile_intersect_UTM40/quartermile_intersect_UTM40.shp</datasource>
+            <datasource>./shapefiles/quartermile_intersect_UTM40/quartermile_intersect_UTM40.shp|layerid=0</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
