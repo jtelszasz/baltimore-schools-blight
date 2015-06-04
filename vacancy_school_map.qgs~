@@ -3,12 +3,12 @@
     <title></title>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
         <customproperties/>
-        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Quarter-Mile Buffer">
+        <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Quarter-Mile Buffer">
             <customproperties/>
             <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="quartermile_vacant_lots_points20150526184219631" name="quartermile_vacant_lots_points">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="quartermile_intersect_UTM4020150527165649026" name="quartermile_intersect_UTM40">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="quartermile_intersect_UTM4020150527165649026" name="quartermile_intersect_UTM40">
                 <customproperties/>
             </layer-tree-layer>
             <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="quartermile_vacant_lots_parcels220150527164131831" name="quartermile_vacant_lots_parcels">
@@ -20,17 +20,17 @@
             <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="quartermile_vacant_bldgs_points20150526184201643" name="quartermile_vacant_bldgs_points">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="quartermile_vacant_bldgs_footprints20150526184157047" name="quartermile_vacant_bldgs_footprints">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="quartermile_vacant_bldgs_footprints20150526184157047" name="quartermile_vacant_bldgs_footprints">
                 <customproperties/>
             </layer-tree-layer>
             <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="quartermile_vacant_bldgs_counts20150526184152009" name="quartermile_vacant_bldgs_counts">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="quartermile_school_buffers20150526184143968" name="quartermile_school_buffers">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="quartermile_school_buffers20150526184143968" name="quartermile_school_buffers">
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Half-Mile Buffer">
+        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Half-Mile Buffer">
             <customproperties/>
             <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="halfmile_vacant_lots_parcels20150526182644549" name="halfmile_vacant_lots_parcels">
                 <customproperties/>
@@ -71,7 +71,7 @@
             <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="school_list_201520150526183236440" name="school_list_2015">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Checked" id="vacant_bldgs_footprint20150601071832578" name="vacant_bldgs_footprint">
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="vacant_bldgs_footprint20150601071832578" name="vacant_bldgs_footprint">
                 <customproperties/>
             </layer-tree-layer>
             <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="building20150526182214256" name="building">
@@ -92,10 +92,10 @@
     <mapcanvas>
         <units>feet</units>
         <extent>
-            <xmin>1392635.61376971076242626</xmin>
-            <ymin>556141.79525157995522022</ymin>
-            <xmax>1446864.76396420667879283</xmax>
-            <ymax>622998.64224628685042262</ymax>
+            <xmin>1398364.17955646524205804</xmin>
+            <ymin>564268.99319457111414522</ymin>
+            <xmax>1444295.05327651556581259</xmax>
+            <ymax>619549.28547476080711931</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -161,15 +161,15 @@
         </custom-order>
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
-        <legendgroup open="true" checked="Qt::Unchecked" name="Quarter-Mile Buffer">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Quarter-Mile Buffer">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="quartermile_vacant_lots_points" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="quartermile_vacant_lots_points20150526184219631" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="quartermile_intersect_UTM40" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="quartermile_intersect_UTM40" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="quartermile_intersect_UTM4020150527165649026" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="quartermile_intersect_UTM4020150527165649026" visible="1"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="quartermile_vacant_lots_parcels" showFeatureCount="0">
@@ -187,9 +187,9 @@
                     <legendlayerfile isInOverview="0" layerid="quartermile_vacant_bldgs_points20150526184201643" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="quartermile_vacant_bldgs_footprints" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="quartermile_vacant_bldgs_footprints" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="quartermile_vacant_bldgs_footprints20150526184157047" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="quartermile_vacant_bldgs_footprints20150526184157047" visible="1"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="quartermile_vacant_bldgs_counts" showFeatureCount="0">
@@ -197,13 +197,13 @@
                     <legendlayerfile isInOverview="0" layerid="quartermile_vacant_bldgs_counts20150526184152009" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="quartermile_school_buffers" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="quartermile_school_buffers" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="quartermile_school_buffers20150526184143968" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="quartermile_school_buffers20150526184143968" visible="1"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Unchecked" name="Half-Mile Buffer">
+        <legendgroup open="false" checked="Qt::Unchecked" name="Half-Mile Buffer">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="halfmile_vacant_lots_parcels" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="halfmile_vacant_lots_parcels20150526182644549" visible="0"/>
@@ -266,9 +266,9 @@
                     <legendlayerfile isInOverview="0" layerid="school_list_201520150526183236440" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="vacant_bldgs_footprint" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="vacant_bldgs_footprint" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="vacant_bldgs_footprint20150601071832578" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="vacant_bldgs_footprint20150601071832578" visible="0"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="building" showFeatureCount="0">
@@ -7537,10 +7537,10 @@ SY14-</displayfield>
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
